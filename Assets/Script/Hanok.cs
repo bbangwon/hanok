@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UniRx;
+using UniRx.Triggers;
 
 public class Hanok : MonoBehaviour {
 
@@ -11,7 +12,7 @@ public class Hanok : MonoBehaviour {
 
     private void Start()
     {
-        GetComponent<UniRx.Triggers.ObservableUpdateTrigger>().UpdateAsObservable().Select(_ => defaultAnimation.isPlaying).DistinctUntilChanged().Where(_ => !_).Subscribe(_ => OnDefaultAnimationEnd());
+        this.UpdateAsObservable().Select(_ => defaultAnimation.isPlaying).DistinctUntilChanged().Where(_ => !_).Subscribe(_ => OnDefaultAnimationEnd());        
     }
 
     // Use this for initialization
