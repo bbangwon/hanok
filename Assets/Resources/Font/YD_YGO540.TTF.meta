@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 7fae28bb0fc09fa4f86b41e0c61b12aa
+timeCreated: 1496390306
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Yoon YGO 540_TT
+  fontNames:
+  - Yoon YGO 540_TT
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
