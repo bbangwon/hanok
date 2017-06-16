@@ -1853,6 +1853,14 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: -230
       objectReference: {fileID: 0}
+    - target: {fileID: 11100000, guid: dc4d93810dc9db947b144c9b9e9a5ea7, type: 3}
+      propertyPath: m_Animation
+      value: 
+      objectReference: {fileID: 7400000, guid: 43d86ab043b520d45aa055e8b7612558, type: 2}
+    - target: {fileID: 11100000, guid: dc4d93810dc9db947b144c9b9e9a5ea7, type: 3}
+      propertyPath: m_Animations.Array.data[0]
+      value: 
+      objectReference: {fileID: 7400000, guid: 43d86ab043b520d45aa055e8b7612558, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dc4d93810dc9db947b144c9b9e9a5ea7, type: 3}
   m_IsPrefabParent: 0

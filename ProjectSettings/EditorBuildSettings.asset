@@ -25,7 +25,7 @@ EditorBuildSettings:
     guid: c473dd45156a8a84db2b812f166b92c6
   - enabled: 1
     path: Assets/Scenes/1680x1050/popup/wangji.unity
-    guid: 123589cf6e582ab448a8ff269a817c38
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/1680x1050/popup/yangtong.unity
     guid: 4c97eb38f180dab4b8df202471de4c09

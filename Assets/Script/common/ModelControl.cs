@@ -23,17 +23,25 @@ public class ModelControl : MonoBehaviour {
     // Use this for initialization
     private void OnEnable()
     {
-        defaultAnimation.Play();
+        Lean.Touch.LeanTouch.OnFingerDown += FingerDown;
+        defaultAnimation.Play();        
     }
 
     private void OnDisable()
     {
+        Lean.Touch.LeanTouch.OnFingerDown -= FingerDown;
+
         LeanTween.cancel(gameObject);
         LeanTouchRotation.enabled = false;
         transform.rotation = Quaternion.identity;
         LeanTouchRotation.Yaw = 0f;
         LeanTouchRotation.Pitch = 0f;
     }   
+
+    void FingerDown(Lean.Touch.LeanFinger f)    //터치가 있으면 타이머를 리셋
+    {
+        HOPopupLoader.Instance.ResetTimer();
+    }
 
     void OnDefaultAnimationEnd()
     {
@@ -49,5 +57,5 @@ public class ModelControl : MonoBehaviour {
                 cameraProcess.InfomationShow();
             });
         });
-    }
+    }    
 }
