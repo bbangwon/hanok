@@ -1343,8 +1343,8 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: "\uACF5\uD3EC \uBD80\uC7AC\uC778 \uCCA8\uCC28\uC640 \uC0B4\uBBF8\uAC00 \uC5EC\uB7EC
-    \uBC29\uD5A5\uC73C\uB85C \uB9CC\uB0A0 \uB54C \uC0AC\uC6A9\uB418\uB294 \uB9DE\uCDA4\uBC95\n<color=\"red\">(\uD55C\uC625\uC5D0\uC11C\uB294
-    \uC4F0\uC774\uC9C0 \uC54A\uC74C. \uC0AC\uCC30\uC774\uB098 \uAD81\uAD90\uC5D0 \uC0AC\uC6A9.)</color>"
+    \uBC29\uD5A5\uC73C\uB85C \uB9CC\uB0A0 \uB54C \uC0AC\uC6A9\uB418\uB294 \uB9DE\uCDA4\uBC95\n<color=\"red\"><size=28>(\uC8FC\uB85C
+    \uC0AC\uCC30\uC774\uB098 \uAD81\uAD90\uC5D0 \uC0AC\uC6A9\uB428)</size></color>"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: acbd37bbc2b69e4499f739b84143b87b, type: 2}
   m_sharedMaterial: {fileID: 21236815387087566, guid: acbd37bbc2b69e4499f739b84143b87b,
@@ -1412,10 +1412,10 @@ MonoBehaviour:
   m_margin: {x: -338.63092, y: 0, z: -496.15472, w: -38.53737}
   m_textInfo:
     textComponent: {fileID: 904347307}
-    characterCount: 65
+    characterCount: 54
     spriteCount: 0
-    spaceCount: 15
-    wordCount: 16
+    spaceCount: 13
+    wordCount: 14
     linkCount: 0
     lineCount: 2
     pageCount: 1
